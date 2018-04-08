@@ -15,7 +15,7 @@ Alas, the dependent variables in the dataset were not enough to train a model th
 
 I tried three models, logistic regression, a random forest and xgboost, and all yielded roughly the same results. As you can see in the confusion matrix below, the majority of the models' errors were false negaives -- predicting that the patient would show up when they did not. Decreasing the prediction threshold from .5 to .4 reduced these errors and improved accuracy, but only marignally.
 
-![Confusion Matrix](https://raw.githubusercontent.com/ryankresse/medical_no_shows/master/imgs/confusion_matrix.png)
+![Confusion Matrix](imgs/confusion_matrix.png)
 
 #### Appointments with low wait times are more likely to be attended
 
