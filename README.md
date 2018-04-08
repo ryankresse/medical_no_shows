@@ -25,7 +25,7 @@ When there are less than ~10 days between when an appointment is scheduled and w
 
 #### Reminder messages aren't very helpful in preventing no shows
 
-Over the entire dataset (left plot below), if the patient receives a reminder message, they seem less likely to show up. However, this seem to be a result of the confounding effect of waiting time. No messages were sent for same day appointments, which patients were much more likely to attend. So when you remove same day appointments (right plot), we see actually see a slightly lower rate of no shows when the patient gets a reminder. But overall, reminder messages don't seem to help much.
+Over the entire dataset (left plot below), if the patient receives a reminder message, they seem less likely to show up. However, this seem to be a result of the confounding effect of waiting time. No messages were sent for same day appointments, which patients were much more likely to attend. So when you remove same day appointments (right plot), we actually see a slightly lower rate of no shows when the patient gets a reminder. But overall, reminder messages don't seem to help much.
 
 ![No show vs. messages](https://raw.githubusercontent.com/ryankresse/medical_no_shows/master/imgs/rate_vs_message.png)
 
@@ -37,7 +37,7 @@ This engineered feature makes sense -- if someone hasn't shown up before, they'r
 ## Future Questions
 
 #### Are  certain patients more/less likely to be influenced by a reminder message?
-I didn't notice anything to suggest that could be the case, but a deeper dive or more data could be helpful.
+I didn't notice anything to suggest that's the case, but a deeper dive or more data could be helpful.
 
 ####  Could the content of a reminder message or when it's sent influence the no-show rate?
 A study investigating this question could help increase effectiveness.
