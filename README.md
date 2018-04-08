@@ -21,7 +21,7 @@ I tried three models, logistic regression, a random forest and xgboost, and all 
 
 When there are less than around 10 days between when an appointment is scheduled and when it takes place, the patient is more likely to show up. This is particularly true for same-day appointments -- only 4% of them were no shows. This makes sense intuitively -- if you have a low wait time, you're less time to forget the appointment and perhaps you're more likely to have an acute illness.
 
-![No show vs. wait time](https://raw.githubusercontent.com/ryankresse/medical_no_shows/master/rate_vs_weight.png)
+![No show vs. wait time](https://raw.githubusercontent.com/ryankresse/medical_no_shows/blob/master/rate_vs_message.png)
 
 
 #### Reminder messages slightly helpful in preventing no shows
